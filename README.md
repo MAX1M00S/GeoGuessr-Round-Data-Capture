@@ -9,7 +9,7 @@ A userscript for capturing GeoGuessr end-screen round data for personal analysis
 - Supports retracting the most recent stored capture if you accidentally save unwanted data.
 - Generates Google Maps Street View URLs using coordinates, heading, FOV, and pano ID when available.
 - Normalizes hex-encoded pano IDs into regular Google pano IDs when possible.
-- CURRENTLY ONLY WORKS FOR SINGLEPLAYER MODE!!!
+- CURRENTLY ONLY WORKS PROPERLY FOR SINGLEPLAYER MODE!!!
 
 ## Files
 
@@ -84,7 +84,6 @@ Example workflow:
 ## Notes and limitations
 
 - This script is for personal post-game analysis and dataset building.
-- It should not be used for real-time assistance during active competitive games.
 - GeoGuessr may change its frontend/API response shape, which can require updates to the extractor.
 - Some fields may be blank if GeoGuessr does not expose them on the result page.
 - Score extraction prefers exact values when available. If exact score data is missing, the script may calculate score from distance using the configured max-distance constant in the script.
