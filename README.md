@@ -3,7 +3,7 @@ A userscript for capturing GeoGuessr end-screen round data for personal analysis
 
 ## Files
 
-- `geoguessr-round-capture.user.js` - Tampermonkey/Violentmonkey userscript for capturing end-screen round data.
+- `GG_round_capture.js` - Tampermonkey/Violentmonkey userscript for capturing end-screen round data.
 
 ## What the userscript captures
 
