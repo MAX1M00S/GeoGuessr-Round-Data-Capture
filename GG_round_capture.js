@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GeoGuessr Round Data Capture
-// @namespace    https://github.com/MAX1M00S/GeoGuessr-Round-Data-Capture
-// @version      0.3.9
+// @namespace    http://tampermonkey.net/
+// @version      0.3.10
 // @author       MAX1M00S (Brio)
 // @description  Capture GeoGuessr end-screen round data and export Google Street View URLs for your own played games.
 // @license      MIT
@@ -11,6 +11,8 @@
 // @grant        GM_download
 // @run-at       document-start
 // ==/UserScript==
+
+// GITHUB PAGE: https://github.com/MAX1M00S/GeoGuessr-Round-Data-Capture
 
 /*
  * GeoGuessr Round Data Capture
