@@ -9,7 +9,7 @@ A userscript for capturing GeoGuessr end-screen round data for personal analysis
 - Supports retracting the most recent stored capture if you accidentally save unwanted data.
 - Generates Google Maps Street View URLs using coordinates, heading, FOV, and pano ID when available.
 - Normalizes hex-encoded pano IDs into regular Google pano IDs when possible.
-- Does not automate gameplay.
+- DOES NOT IN ANY WAY AUTOMATE GAMEPLAY!!!
 
 ## Files
 
