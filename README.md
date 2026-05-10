@@ -83,6 +83,7 @@ Example workflow:
 
 ## Notes and limitations
 
+- The script cannot directly scrape info on round score, so it has to calculate it manually, meaning that the same score calculation used for world maps is uniform across all map scales. WILL FOLLOW UP ON THIS LATER!!!
 - This script is for personal post-game analysis and dataset building.
 - GeoGuessr may change its frontend/API response shape, which can require updates to the extractor.
 - Some fields may be blank if GeoGuessr does not expose them on the result page.
