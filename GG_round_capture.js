@@ -24,7 +24,7 @@
  * 3. Play a GeoGuessr game normally.
  * 4. Open the game summary/end screen.
  * 5. Click "GeoGuessr Capture" in the bottom-right corner.
- * 6. Download CSV or copy JSON.
+ * 6. Download CSV/JSON.
  */
 
 (function () {
