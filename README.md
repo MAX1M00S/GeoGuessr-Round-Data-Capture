@@ -24,14 +24,6 @@ When data is available in the page runtime, each exported row contains:
 - `street_view_url`
 - `data_source`
 
-The `street_view_url` column is generated like this:
-
-```text
-https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=LAT,LNG
-```
-
-If heading is available, the script appends `&heading=...`.
-
 ## Setup
 
 1. Install a browser userscript manager:
